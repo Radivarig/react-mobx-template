@@ -1,0 +1,20 @@
+{
+  "presets": [
+    "react",
+  ],
+  "plugins": [
+    "react-hot-loader/babel",
+
+    "transform-object-rest-spread",
+
+    "babel-plugin-transform-decorators-legacy",
+    "babel-plugin-transform-class-properties",
+
+    "jsx-control-statements",
+
+    ["flow-runtime", {
+        "assert": true,
+    }],
+
+  ]
+}
