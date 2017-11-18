@@ -20,6 +20,10 @@ module.exports = {
         test: /\.jsx?$/,
         loaders: ["babel-loader", "eslint-loader?fix=true"],
       },
+      {
+        test: /\.css$/,
+        loaders: ["style-loader", "css-loader"],
+      },
     ],
   },
   plugins: [
